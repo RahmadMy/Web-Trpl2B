@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Meta name="author" content="Rahmad Mardeyuza" charset="UTF-8">
+		<title>Form HTML</title>
+	</head>
+	<body>
+		<h1>Form pendaftaraan</h1>
+		<form>
+			<fieldset>
+				<legend>Data Pribadi</legend>
+				<table border="1px" style="">
+					<tr>
+						<td><label for="nim">NIM :</label></td>
+						<td><input type="number" name="nim" id="id"  required></td>
+					</tr>
+					<tr>
+						<td><label for="nama">Nama:</label></td>
+						<td><input type="text" name="nama" id="nama" required></td>						
+					</tr>
+					<tr>
+						<td><label for="email">Email :</label></td>
+						<td><input type="email" name="email" id="email" required></td>						
+					</tr>
+					<tr>
+						<td><label for="password">Password :</label></td>
+						<td><input type="password" name="password" id="password" required></td>						
+					</tr>
+					<tr>
+						<td><label for="date">Tanggal lahir :</label></td>
+						<td><input type="date" name="date" id="date"  required></td>						
+					</tr>
+					<tr>
+						<td><label for="jk">Jenis Kelamin :</label></td>
+						<td><input type="radio" name="gender" value="Laki-Laki" >Laki-Laki
+						<input type="radio" name="gender" value="Perempuan" >Perempuan
+						<input type="radio" name="gender" value="ayam" >Ayam
+						<input type="radio" name="gender" value="Telur" >Telur</td>
+					</tr>
+					<tr>
+						<td><label for="jk">Hobi :</label></td>
+						<td><input type="checkbox" name="hobi" value="produksi telur" >ber telur
+						<input type="checkbox" name="hobi" value="jual telur" >jual telur
+						<input type="checkbox" name="hobi" value="angkat telur" >angkat telur
+						<input type="checkbox" name="hobi" value="ngeramin telur" >ngeramin Telur</td>					
+					</tr>
+					<tr>
+						<td><label for="jurusan">Jurusan :</label></td>
+						<td>
+						<select name="jurusan" id="jurusan">
+							<option value="">Pilih Jurusan</option>
+							<option value="TI">Teknologi Informasi</option>
+							<option value="TE">Teknik Elektro</option>
+							<option value="TM">Teknik Mesin</option>
+							<option value="TS">Teknik Sipil</option>
+							<option value="TT">Teknik Telur</option>
+						</td>						
+					</tr>
+					<tr>
+						<td><label for="alamat">Alamat :</label></td>
+						<td><textarea name="alamat" id="alamat" cols="30" rows="10" bgcolor="takin"></textarea></td>		
+					</tr>
+					<tr>
+						<td><label for="foto">Upload Foto :</label></td>
+						<td><input type="file" name="foto" id="foto" accept="image/*"></td>						
+					</tr>
+					<tr>
+						<td><input type="submit" name="submit" bgcolor="black"></td>
+						<td><input type="reset" name="reset" bgcolor="takin"></td>						
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>

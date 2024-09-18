@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>Table HTML</Title>
+		<meta name="author" content="Rahmad Mardeyuza">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Nilai Mahasiswa</h1>
+		<table class="made"  border="1" style="border-collapse:collapse">
+			<tr>
+				<th rowspan="2">NO</th>
+				<th rowspan="2">nama</th>
+				<th colspan="3">Mata Kuliah</th>
+			</tr>
+			<tr>
+				<th>pemograman web</th>
+				<th>basis data</th>
+				<th>jaringan computer</th>
+			</tr>
+			<tr>
+				<td align="middle">1.</td>
+				<td>ahmad</td>
+				<td align="middle" >80</td>
+				<td align="middle" >85</td>
+				<td align="middle" >90</td>
+			</tr>
+			<tr>
+				<td align="middle">2.</td>
+				<td>siti</td>
+				<td align="middle" >75</td>
+				<td align="middle" >80</td>
+				<td align="middle" >85</td>
+			</tr>
+			<tr>
+				<td align="middle">3.</td>
+				<td>indra</td>
+				<td align="middle" >70</td>
+				<td align="middle" >75</td>
+				<td align="middle" >80</td>
+			</tr>
+			<tr>
+				<td align="middle" colspan="5"> jumlah Mahasiswa: 3</td>
+			</tr>
+		</table>
+	</body>
+</html>

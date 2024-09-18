@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Element Div</title>
+		<style>
+			.Div-Satu{
+				background-color: blue;
+				color: yellow;
+				height: 150px;
+				width: 50%;
+			}
+			.Div-Dua{
+				background-color: red;
+				color: Brown;
+				height: 200px;
+				width: 75%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Div-Satu">
+			<h1>Ini Judul DIV Pertama</h1>
+			<p>Ini isi Div pertama</p>
+		</div>
+		<div class="Div-Dua">
+			<h1>Ini Judul DIV Kedua</h1>
+			<p>Ini isi Div Kedua</p>
+		</div>
+	</body>
+</html>

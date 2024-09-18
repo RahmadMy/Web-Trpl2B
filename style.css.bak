@@ -1,0 +1,14 @@
+h1{
+	background-color : red ;
+	margin : ;
+	text-align: center ;
+	text-decoration-line: overline underline;
+	text-transform :;
+	text-shadow : 0px 0px;
+}
+p{
+	font-family :  ;
+}
+.made{
+	text-align : center ;
+}

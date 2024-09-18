@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>Table HTML</Title>
+		<meta name="author" content="Rahmad Mardeyuza">
+	</head>
+	<body>
+		<h1>Tabel Pada HTML</h1>
+		<table border="3" style="border-collapse:collapse" cellpadding="5" width="75%" >
+			<tr>
+				<th bgcolor="lightgray" colspan="3">Kolom 1,2 dan 3 </th>
+			</tr>
+			<tr>
+				<td rowspan="2" width="10%" valign="bottom" align="center">Baris 1 Kolom 1</td>
+				<td>Baris 1 Kolom 2</td>
+				<td>Baris 1 Kolom 3</td>
+			</tr>
+			<tr>
+				<td bgcolor="takin" style="color:red">Baris 2 Kolom 1</td>
+				<td bgcolor="lightrahmad" style="color:white">Baris 2 Kolom 2</td>
+			</tr>
+		</Table>
+	</body>
+</html>

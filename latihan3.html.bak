@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<Title>Link HTML</Title>
+		<meta name="author" content="Rahmad Mardeyuza">
+	</head>
+	<body>
+		<h1>Link pada HTML</h1>
+		<!--Link internal-->
+		<a href="../latihan2.html">Klik Disini</a>
+	</body>
+</html>
